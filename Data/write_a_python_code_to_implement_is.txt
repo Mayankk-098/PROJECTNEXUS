@@ -1,0 +1,40 @@
+Here's a Python script that implements a simple "Island Perimeter" problem. The problem is to find the perimeter of an island represented as a grid of 0s (water) and 1s (land). The perimeter is the number of 4-directional adjacent 0s around the island.
+
+```python
+def islandPerimeter(grid):
+if not grid:
+return 0
+
+rows, cols = len(grid), len(grid[0])
+perimeter = 0
+
+for i in range(rows):
+for j in range(cols):
+if grid[i][j] == 1:
+# Check up
+if i == 0 or grid[i-1][j] == 0:
+perimeter += 1
+# Check down
+if i == rows-1 or grid[i+1][j] == 0:
+perimeter += 1
+# Check left
+if j == 0 or grid[i][j-1] == 0:
+perimeter += 1
+# Check right
+if j == cols-1 or grid[i][j+1] == 0:
+perimeter += 1
+
+return perimeter
+
+# Example usage:
+grid = [
+[0, 1, 0, 0],
+[1, 1, 1, 0],
+[0, 1, 0, 0],
+[1, 1, 0, 0]
+]
+
+print(islandPerimeter(grid))  # Output: 16
+```
+
+This code defines a function `islandPerimeter` that takes a 2D list `grid` as input and returns the perimeter of the island. The function iterates through each cell in the grid, and for each cell containing land (1), it checks its four possible neighbors (up, down, left, and right). If a neighbor is water (0) or out of bounds, it adds to the perimeter count. The example usage demonstrates how to use the function with a sample grid.

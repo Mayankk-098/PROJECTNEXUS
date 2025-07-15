@@ -1,0 +1,111 @@
+Sure, I can help you create a simple C program for a basic hostel management system. This program will include functionalities for student registration, room allocation, and room display. For simplicity, we'll keep the data handling in-memory and use basic data structures.
+
+Here's a basic example:
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+// Structure to hold student information
+struct Student {
+    int id;
+    char name[50];
+    char room[10];
+};
+
+// Function to add a student
+void addStudent(struct Student students[], int *count) {
+    if (*count >= 100) {
+        printf("Hostel is full. Cannot add more students.\n");
+        return;
+    }
+
+    struct Student newStudent;
+    printf("Enter student ID: ");
+    scanf("%d", &newStudent.id);
+    printf("Enter student name: ");
+    scanf("%s", newStudent.name);
+    printf("Enter room number: ");
+    scanf("%s", newStudent.room);
+
+    students[*count] = newStudent;
+    (*count)++;
+    printf("Student added successfully.\n");
+}
+
+// Function to display all students
+void displayStudents(struct Student students[], int count) {
+    if (count == 0) {
+        printf("No students registered.\n");
+        return;
+    }
+
+    printf("List of Students:\n");
+    for (int i = 0; i < count; i++) {
+        printf("ID: %d, Name: %s, Room: %s\n", students[i].id, students[i].name, students[i].room);
+    }
+}
+
+// Function to display students in a specific room
+void displayStudentsInRoom(struct Student students[], int count, char room[]) {
+    int found = 0;
+    printf("Students in room %s:\n", room);
+    for (int i = 0; i < count; i++) {
+        if (strcmp(students[i].room, room) == 0) {
+            printf("ID: %d, Name: %s\n", students[i].id, students[i].name);
+            found = 1;
+        }
+    }
+    if (!found) {
+        printf("No students found in room %s.\n", room);
+    }
+}
+
+int main() {
+    struct Student students[100];
+    int count = 0;
+    int choice;
+    char room[10];
+
+    do {
+        printf("\nHostel Management System\n");
+        printf("1. Add Student\n");
+        printf("2. Display All Students\n");
+        printf("3. Display Students in a Room\n");
+        printf("4. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
+
+        switch (choice) {
+            case 1:
+                addStudent(students, &count);
+                break;
+            case 2:
+                displayStudents(students, count);
+                break;
+            case 3:
+                printf("Enter room number: ");
+                scanf("%s", room);
+                displayStudentsInRoom(students, count, room);
+                break;
+            case 4:
+                printf("Exiting...\n");
+                break;
+            default:
+                printf("Invalid choice. Please try again.\n");
+        }
+    } while (choice != 4);
+
+    return 0;
+}
+```
+
+### Explanation:
+1. **Data Structure**: We define a `Student` structure to hold student information.
+2. **Functions**:
+   - `addStudent` adds a new student to the hostel.
+   - `displayStudents` displays all registered students.
+   - `displayStudentsInRoom` displays students in a specific room.
+3. **Main Function**: The main function provides a menu-driven interface to interact with the hostel management system.
+
+This program is a starting point. You can extend it by adding more features like updating student information, removing students, and handling more complex room allocations. If you have specific requirements or additional features in mind, feel free to ask!

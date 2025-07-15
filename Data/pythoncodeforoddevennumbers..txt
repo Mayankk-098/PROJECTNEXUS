@@ -1,0 +1,27 @@
+Sure, Mayank! I'd be happy to help you with that. Here's a simple Python program that determines whether a number is odd or even:
+
+```python
+# Function to check if a number is odd or even
+def check_odd_even(number):
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Main program
+if __name__ == "__main__":
+    # Sample input
+    number = int(input("Enter a number: "))
+
+    # Check if the number is odd or even
+    result = check_odd_even(number)
+
+    # Display the result
+    print(f"The number {number} is {result}.")
+```
+
+### Explanation:
+1. **Function Definition**: The `check_odd_even` function takes a single argument `number` and checks if it is divisible by 2 using the modulus operator `%`. If the remainder is 0, the number is even; otherwise, it is odd.
+2. **Main Program**: The program prompts the user to enter a number, then calls the `check_odd_even` function with the input number and prints the result.
+
+You can run this code in any Python environment. It will prompt you to enter a number and then tell you whether the number is odd or even.

@@ -1,0 +1,169 @@
+Sure! Let's start with a brief introduction to Python programming. Python is a high-level, interpreted programming language known for its simplicity and readability. It is widely used for web development, data analysis, artificial intelligence, scientific computing, and more.
+
+### Basic Python Programming
+
+#### Hello, World!
+
+The traditional way to start with any programming language is to print "Hello, World!" Here's how you can do it in Python:
+
+```python
+# This is a comment
+print("Hello, World!")
+```
+
+This will output:
+
+```
+Hello, World!
+```
+
+#### Variables and Data Types
+
+Variables in Python are used to store data values. Python supports various data types like integers, floats, strings, and more.
+
+```python
+# Integer
+x = 10
+
+# Float
+y = 10.5
+
+# String
+name = "Mayank"
+
+# Boolean
+is_student = True
+
+print(x, y, name, is_student)
+```
+
+#### Basic Operations
+
+Python supports various arithmetic operations:
+
+```python
+# Addition
+sum = 5 + 3
+
+# Subtraction
+difference = 5 - 3
+
+# Multiplication
+product = 5 * 3
+
+# Division
+quotient = 5 / 3
+
+print(sum, difference, product, quotient)
+```
+
+#### Control Structures
+
+##### If-Else Statements
+
+```python
+age = 18
+
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+```
+
+##### Loops
+
+Python provides `for` and `while` loops for iteration.
+
+```python
+# For loop
+for i in range(5):
+    print(i)
+
+# While loop
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+```
+
+#### Functions
+
+Functions are reusable blocks of code that perform a specific task.
+
+```python
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Mayank"))
+```
+
+#### List, Tuple, and Dictionary
+
+Python supports various data structures:
+
+```python
+# List
+fruits = ["apple", "banana", "cherry"]
+
+# Tuple
+coordinates = (10.0, 20.0)
+
+# Dictionary
+person = {"name": "Mayank", "age": 25}
+
+print(fruits, coordinates, person)
+```
+
+#### Modules and Libraries
+
+Python has a rich standard library and many third-party libraries. You can import them using the `import` statement.
+
+```python
+import math
+
+print(math.sqrt(16))
+```
+
+#### Example: A Simple Calculator
+
+Here's a simple calculator program:
+
+```python
+def add(x, y):
+    return x + y
+
+def subtract(x, y):
+    return x - y
+
+def multiply(x, y):
+    return x * y
+
+def divide(x, y):
+    if y == 0:
+        return "Error! Division by zero."
+    return x / y
+
+print("Select operation:")
+print("1. Add")
+print("2. Subtract")
+print("3. Multiply")
+print("4. Divide")
+
+choice = input("Enter choice (1/2/3/4): ")
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+if choice == '1':
+    print(f"The result is: {add(num1, num2)}")
+elif choice == '2':
+    print(f"The result is: {subtract(num1, num2)}")
+elif choice == '3':
+    print(f"The result is: {multiply(num1, num2)}")
+elif choice == '4':
+    print(f"The result is: {divide(num1, num2)}")
+else:
+    print("Invalid input")
+```
+
+This should give you a good starting point for Python programming. If you have any specific questions or need more advanced topics, feel free to ask!

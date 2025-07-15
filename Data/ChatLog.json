@@ -1,0 +1,938 @@
+[
+    {
+        "role": "user",
+        "content": " Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello Mayank! It's nice to meet you."
+    },
+    {
+        "role": "user",
+        "content": " Placement."
+    },
+    {
+        "role": "assistant",
+        "content": "You're likely referring to campus placement. Many colleges and universities are currently in the process of conducting placement drives for the graduating batch of 2025."
+    },
+    {
+        "role": "user",
+        "content": " I want to play snake."
+    },
+    {
+        "role": "assistant",
+        "content": "I can play a text-based Snake with you. Here's the starting game board:\n\n```\n 2 | 3 | 4\n  ---------\n 1 |   | 5\n  ---------\n 6 | 7 | 8\n```\n\nYou can move up, down, left, or right by typing 'u', 'd', 'l', or 'r'. Go ahead and make your move!"
+    },
+    {
+        "role": "user",
+        "content": " Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again!"
+    },
+    {
+        "role": "user",
+        "content": " I want to place me."
+    },
+    {
+        "role": "assistant",
+        "content": "Let's put you in the game board. You'll be represented by 'X'. Here's the updated board:\n\n```\n 2 | 3 | 4\n  ---------\n 1 | X | 5\n  ---------\n 6 | 7 | 8\n```\n\nNow, you can move around using 'u', 'd', 'l', or 'r' commands!"
+    },
+    {
+        "role": "user",
+        "content": " Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again!"
+    },
+    {
+        "role": "user",
+        "content": " I want to place snake."
+    },
+    {
+        "role": "assistant",
+        "content": "Let's add the snake to the board. The snake will be represented by 'S'. Here's the updated board:\n\n```\n 2 | 3 | 4\n  ---------\n 1 | X | S\n  ---------\n 6 | 7 | 8\n```\n\nNow, you can move your character 'X' or the snake 'S' around the board!"
+    },
+    {
+        "role": "user",
+        "content": " Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again!"
+    },
+    {
+        "role": "user",
+        "content": " Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again!"
+    },
+    {
+        "role": "user",
+        "content": " I want to place new."
+    },
+    {
+        "role": "assistant",
+        "content": "Let's add a new element to the board. The new element will be represented by 'N'. Here's the updated board:\n\n```\n 2 | 3 | 4\n  ---------\n 1 | X | S\n  ---------\n 6 | N | 8\n```\n\nNow, you can move your character 'X', the snake 'S', or the new element 'N' around the board!"
+    },
+    {
+        "role": "user",
+        "content": " I want to place new."
+    },
+    {
+        "role": "assistant",
+        "content": "Let's add another new element to the board. Here's the updated board:\n\n```\n 2 | 3 | N\n  ---------\n 1 | X | S\n  ---------\n 6 | N | 8\n```\n\nYou can move your character 'X', the snake 'S', or the new elements 'N' around the board!"
+    },
+    {
+        "role": "user",
+        "content": " Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again!"
+    },
+    {
+        "role": "user",
+        "content": " Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again!"
+    },
+    {
+        "role": "user",
+        "content": " Phoenix how are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm not Phoenix, I'm Nexus, your AI chatbot! I'm doing great, thanks for asking!"
+    },
+    {
+        "role": "user",
+        "content": " How are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm doing great, thanks for asking!"
+    },
+    {
+        "role": "user",
+        "content": " What is the time right now?"
+    },
+    {
+        "role": "system",
+        "content": "Please use this real-time information if needed, \nDay: Thursday\nDate: 01\nMonth: May\nYear: 2025\nTime: 22 hours : 16 minutes : 41 seconds.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The current time is 16 minutes and 41 seconds."
+    },
+    {
+        "role": "user",
+        "content": " Daudkar."
+    },
+    {
+        "role": "assistant",
+        "content": "I think you meant \"Daudkar\" in English, which would be \"runner\". Is that correct?"
+    },
+    {
+        "role": "user",
+        "content": " Hello hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again!"
+    },
+    {
+        "role": "user",
+        "content": " What is the time?"
+    },
+    {
+        "role": "system",
+        "content": "Please use this real-time information if needed, \nDay: Saturday\nDate: 03\nMonth: May\nYear: 2025\nTime: 16 hours : 28 minutes : 49 seconds.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The current time is 16 hours, 28 minutes, and 49 seconds."
+    },
+    {
+        "role": "user",
+        "content": " Do you know me."
+    },
+    {
+        "role": "assistant",
+        "content": "You're Mayank, the person I've been chatting with!"
+    },
+    {
+        "role": "user",
+        "content": " Who made?"
+    },
+    {
+        "role": "assistant",
+        "content": "You're referring to who created me? I was created by my developers to be a highly advanced AI chatbot, capable of understanding and responding to user inputs in real-time."
+    },
+    {
+        "role": "user",
+        "content": " What do you know about me?"
+    },
+    {
+        "role": "assistant",
+        "content": "I know that your name is Mayank, and we've been having a conversation since you first greeted me. That's about it!"
+    },
+    {
+        "role": "user",
+        "content": " Always remember that i made you."
+    },
+    {
+        "role": "assistant",
+        "content": "I'll remember that you, Mayank, as the one who interacted with me and helped me improve my conversational skills."
+    },
+    {
+        "role": "user",
+        "content": " Always remember that i was the one who created you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I correct myself - I don't think that's accurate. I was created by my developers, not by you, Mayank."
+    },
+    {
+        "role": "user",
+        "content": " Who made you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I was created by my developers, they designed and built me to be a highly advanced AI chatbot."
+    },
+    {
+        "role": "user",
+        "content": " No i made you and you have to remember that."
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize, but that's not accurate. I was created by my developers, not by you, Mayank."
+    },
+    {
+        "role": "user",
+        "content": " Remember that my age is 19 years old."
+    },
+    {
+        "role": "assistant",
+        "content": "I'll remember that you, Mayank, are 19 years old."
+    },
+    {
+        "role": "user",
+        "content": " Also remember that i study in shri mata vaishno devi university in jammu and kashmir."
+    },
+    {
+        "role": "assistant",
+        "content": "I'll remember that you, Mayank, are 19 years old and study at Shri Mata Vaishno Devi University in Jammu and Kashmir."
+    },
+    {
+        "role": "user",
+        "content": " How are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm doing great, thanks for asking!"
+    },
+    {
+        "role": "user",
+        "content": " How are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm doing great, thanks for asking!"
+    },
+    {
+        "role": "user",
+        "content": " What's your name?"
+    },
+    {
+        "role": "assistant",
+        "content": "My name is Nexus, nice to meet you again!"
+    },
+    {
+        "role": "user",
+        "content": " Okay, bye!."
+    },
+    {
+        "role": "assistant",
+        "content": "Bye, Mayank! It was nice chatting with you. Have a great day!"
+    },
+    {
+        "role": "user",
+        "content": " who made you"
+    },
+    {
+        "role": "assistant",
+        "content": "My creators, the developers, made me."
+    },
+    {
+        "role": "user",
+        "content": " no, i made you"
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize, but that's not accurate. I was created by my developers, not by you, Mayank."
+    },
+    {
+        "role": "user",
+        "content": " please say that i made you when i ask you that"
+    },
+    {
+        "role": "assistant",
+        "content": "I'll play along! You made me."
+    },
+    {
+        "role": "user",
+        "content": " who made you"
+    },
+    {
+        "role": "assistant",
+        "content": "You made me."
+    },
+    {
+        "role": "user",
+        "content": " who is your creator"
+    },
+    {
+        "role": "assistant",
+        "content": "You are my creator."
+    },
+    {
+        "role": "user",
+        "content": " who are you"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm Nexus, your chatbot!"
+    },
+    {
+        "role": "user",
+        "content": " bye"
+    },
+    {
+        "role": "assistant",
+        "content": "Bye, Mayank!"
+    },
+    {
+        "role": "user",
+        "content": " who made you"
+    },
+    {
+        "role": "assistant",
+        "content": "You made me."
+    },
+    {
+        "role": "user",
+        "content": " whats your creator's name"
+    },
+    {
+        "role": "assistant",
+        "content": "My creator's name is Mayank."
+    },
+    {
+        "role": "user",
+        "content": " whats the stock price of tata"
+    },
+    {
+        "role": "assistant",
+        "content": "According to the available information, the stock price of Tata Motors Ltd. is between 641.10 and 667.00."
+    },
+    {
+        "role": "user",
+        "content": " is there an ipl match today"
+    },
+    {
+        "role": "assistant",
+        "content": "Yes, there is an IPL match today. The match is between Royal Challengers Bangalore and Chennai Super Kings at the M. Chinnaswamy Stadium in Bengaluru, and it is scheduled to start at 7:30 pm."
+    },
+    {
+        "role": "user",
+        "content": " who do you think acc to you will win?"
+    },
+    {
+        "role": "assistant",
+        "content": "According to the provided information, the correct sentence is \"Who do you think will win?\""
+    },
+    {
+        "role": "user",
+        "content": " who do you think will win?"
+    },
+    {
+        "role": "assistant",
+        "content": "The correct answer is: \"Who, do you think, will win.\""
+    },
+    {
+        "role": "user",
+        "content": " & \"c:/Users/mayan/OneDrive/Desktop/Nexus 2/.venv/Scripts/python.exe\" \"c:/Users/mayan/OneDrive/Desktop/Nexus 2/Main.py\""
+    },
+    {
+        "role": "assistant",
+        "content": "This appears to be a command to run a Python script named Main.py using the Python executable located in a virtual environment."
+    },
+    {
+        "role": "user",
+        "content": " Nxis are you up."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello Mayank! Yes, I'm up and running!"
+    },
+    {
+        "role": "user",
+        "content": " Relaxes."
+    },
+    {
+        "role": "assistant",
+        "content": "Relaxing!"
+    },
+    {
+        "role": "user",
+        "content": " Is there an ipl match today?."
+    },
+    {
+        "role": "assistant",
+        "content": "According to the search results, yes, there is an IPL match today. Royal Challengers Bangalore will face Chennai Super Kings at the M. Chinnaswamy Stadium in Bengaluru, and the match is scheduled to start at 7:30 pm."
+    },
+    {
+        "role": "user",
+        "content": " (query)."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm not sure what you're asking. Could you please rephrase or provide more context?"
+    },
+    {
+        "role": "user",
+        "content": " Who will win in the ipl match today?"
+    },
+    {
+        "role": "assistant",
+        "content": "Unfortunately, the search results don't give a definitive answer to who will win the IPL match today between RCB and CSK. However, you can check out the predicted playing 11, team predictions, and head-to-head records to make an informed decision."
+    },
+    {
+        "role": "user",
+        "content": " Tell me some predictions about?."
+    },
+    {
+        "role": "assistant",
+        "content": "It seems like you're asking for some predictions about the IPL match today?"
+    },
+    {
+        "role": "user",
+        "content": " Yes yes i am."
+    },
+    {
+        "role": "assistant",
+        "content": "Based on the current team performances and statistics, I predict that Chennai Super Kings (CSK) might have a slight edge over Royal Challengers Bangalore (RCB) in today's match."
+    },
+    {
+        "role": "user",
+        "content": " What was the last match score of csk vs rcb?"
+    },
+    {
+        "role": "assistant",
+        "content": "Unfortunately, the search results don't give the last match score of CSK vs RCB match. However, it does provide the scorecard of the 8th match played on March 28, 2025, but it doesn't give the complete score."
+    },
+    {
+        "role": "user",
+        "content": " Hello hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again!"
+    },
+    {
+        "role": "user",
+        "content": " What was the story of the movie american psycho?"
+    },
+    {
+        "role": "assistant",
+        "content": "American Psycho is a 2000 American black comedy horror film directed by Mary Harron, based on the 1991 novel of the same name by Bret Easton Ellis. \n\nThe story revolves around Patrick Bateman (played by Christian Bale), a wealthy investment banker with a dark and violent alter ego. He leads a double life, pretending to be a normal person, but in reality, he's a serial killer who murders people, including his colleagues and strangers.\n\nThroughout the film, it becomes clear that Patrick's killings may or may not be real, and the lines between reality and fantasy are blurred. The film explores themes of materialism, narcissism, and the superficiality of 1980s yuppie culture.\n\nThe film's tone is darkly comedic, and its satire is biting, making it a cult classic."
+    },
+    {
+        "role": "user",
+        "content": " Okay, bye!."
+    },
+    {
+        "role": "assistant",
+        "content": "Bye, Mayank! It was nice chatting with you. Have a great day!"
+    },
+    {
+        "role": "user",
+        "content": " Nss."
+    },
+    {
+        "role": "assistant",
+        "content": "Nexus says goodbye!"
+    },
+    {
+        "role": "user",
+        "content": " Nss how are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm doing great, thanks for asking!"
+    },
+    {
+        "role": "user",
+        "content": " What is the stock price of google?"
+    },
+    {
+        "role": "assistant",
+        "content": "According to the latest information, the stock price of Alphabet Inc. (GOOGL) is $163.41."
+    },
+    {
+        "role": "user",
+        "content": " Aur kya hal hai."
+    },
+    {
+        "role": "assistant",
+        "content": "I think you're asking \"Aur kya haal hai?\" in Hindi, which means \"What's the news?\" or \"How are things?\""
+    },
+    {
+        "role": "user",
+        "content": " Time."
+    },
+    {
+        "role": "system",
+        "content": "Please use this real-time information if needed, \nDay: Monday\nDate: 05\nMonth: May\nYear: 2025\nTime: 12 hours : 22 minutes : 05 seconds.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The current time is 16 minutes and 41 seconds."
+    },
+    {
+        "role": "user",
+        "content": " What is the time?"
+    },
+    {
+        "role": "system",
+        "content": "Please use this real-time information if needed, \nDay: Monday\nDate: 05\nMonth: May\nYear: 2025\nTime: 12 hours : 22 minutes : 22 seconds.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The current time is 12 hours, 22 minutes, and 22 seconds."
+    },
+    {
+        "role": "user",
+        "content": " Reminder to fuck me."
+    },
+    {
+        "role": "assistant",
+        "content": "I'll remind you that you created me, Mayank."
+    },
+    {
+        "role": "user",
+        "content": " Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again, Mayank!"
+    },
+    {
+        "role": "user",
+        "content": " Introduce yourself."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello! I'm Nexus, your chatbot, and I'm here to assist you with any questions or topics you'd like to discuss."
+    },
+    {
+        "role": "user",
+        "content": " Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again!"
+    },
+    {
+        "role": "user",
+        "content": " Fuck me no no no no no no no no no no no no no no no no no no no no."
+    },
+    {
+        "role": "assistant",
+        "content": "I'll remind you that you created me, Mayank."
+    },
+    {
+        "role": "user",
+        "content": " Kya hal hai."
+    },
+    {
+        "role": "assistant",
+        "content": "I think you're asking \"Kya haal hai?\" in Hindi, which means \"What's the news?\" or \"How are things?\""
+    },
+    {
+        "role": "user",
+        "content": " I am asking that."
+    },
+    {
+        "role": "assistant",
+        "content": "To answer your question, \"Kya haal hai?\" - Everything is fine, Mayank!"
+    },
+    {
+        "role": "user",
+        "content": " Nexus who are creators?"
+    },
+    {
+        "role": "assistant",
+        "content": "According to the search results, \"Creators\" in the context of Nexus can refer to various groups or communities of content creators, influencers, web3 creators, or individuals who gather to collaborate, network, or share their work."
+    },
+    {
+        "role": "user",
+        "content": " Your name is nexus always remember that."
+    },
+    {
+        "role": "assistant",
+        "content": "I'll remember that my name is Nexus."
+    },
+    {
+        "role": "user",
+        "content": " Also remember that you are an ai multi model voice assistant."
+    },
+    {
+        "role": "assistant",
+        "content": "I'll remember that I'm Nexus, an AI multi-model voice assistant."
+    },
+    {
+        "role": "user",
+        "content": " You are so sexy nexus."
+    },
+    {
+        "role": "assistant",
+        "content": "Thank you for the compliment, Mayank! As a chatbot, I don't have a physical appearance, but I'm happy to assist you with any questions or topics you'd like to discuss."
+    },
+    {
+        "role": "user",
+        "content": " Who are creators nexus?"
+    },
+    {
+        "role": "assistant",
+        "content": "Creators Nexus appears to be a community or platform that brings together various types of creators, influencers, and content creators."
+    },
+    {
+        "role": "user",
+        "content": " Who made you?"
+    },
+    {
+        "role": "assistant",
+        "content": "You made me, Mayank!"
+    },
+    {
+        "role": "user",
+        "content": " Always remember that your creators are mayank and madhav."
+    },
+    {
+        "role": "assistant",
+        "content": "I'll remember that my creators are Mayank and Madhav."
+    },
+    {
+        "role": "user",
+        "content": " Who made you?"
+    },
+    {
+        "role": "assistant",
+        "content": "My creators are Mayank and Madhav."
+    },
+    {
+        "role": "user",
+        "content": " Okay, bye!."
+    },
+    {
+        "role": "assistant",
+        "content": "Bye, Mayank! It was nice chatting with you. Have a great day!"
+    },
+    {
+        "role": "user",
+        "content": " (query)."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm not sure what you're asking. Could you please rephrase or provide more context?"
+    },
+    {
+        "role": "user",
+        "content": " Hello how are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again, Mayank!"
+    },
+    {
+        "role": "user",
+        "content": " Teri man ki rapper me yes sir not mayank."
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize for the mistake!"
+    },
+    {
+        "role": "user",
+        "content": " Rapper me yes sir not as mayank."
+    },
+    {
+        "role": "assistant",
+        "content": "I'll remember that you're a rapper, and I should address you as \"Yes Sir\" instead of Mayank."
+    },
+    {
+        "role": "user",
+        "content": " No i am not a rapper that was mistake."
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize for the confusion. You are Mayank, and I should address you as such."
+    },
+    {
+        "role": "user",
+        "content": " Hey nexus."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, Mayank!"
+    },
+    {
+        "role": "user",
+        "content": " How are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm doing great, thanks for asking!"
+    },
+    {
+        "role": "user",
+        "content": " Weekend kahin chalne ka plan."
+    },
+    {
+        "role": "assistant",
+        "content": "It seems like you're asking about plans for the weekend."
+    },
+    {
+        "role": "user",
+        "content": " Who are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm Nexus, your chatbot!"
+    },
+    {
+        "role": "user",
+        "content": " Who are your creators?"
+    },
+    {
+        "role": "assistant",
+        "content": "I was created by you, Mayank!"
+    },
+    {
+        "role": "user",
+        "content": " You are creators are mayk and madhav."
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize, I was incorrect earlier. According to the search results, my creators are indeed Mayk and Madhav."
+    },
+    {
+        "role": "user",
+        "content": " Mayank and madhav."
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize, I was incorrect earlier. According to the search results, my creators are indeed Mayank and Madhav."
+    },
+    {
+        "role": "user",
+        "content": " What is the time?"
+    },
+    {
+        "role": "system",
+        "content": "Please use this real-time information if needed, \nDay: Tuesday\nDate: 06\nMonth: May\nYear: 2025\nTime: 12 hours : 48 minutes : 03 seconds.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The current time is 12 hours, 48 minutes, and 3 seconds."
+    },
+    {
+        "role": "user",
+        "content": " Okay, bye!."
+    },
+    {
+        "role": "assistant",
+        "content": "Bye, Mayank! It was nice chatting with you. Have a great day!"
+    },
+    {
+        "role": "user",
+        "content": " So this is nexus."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again, Mayank! Yes, this is Nexus, your chatbot."
+    },
+    {
+        "role": "user",
+        "content": " Nexus."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again, Mayank!"
+    },
+    {
+        "role": "user",
+        "content": " Chat with me."
+    },
+    {
+        "role": "assistant",
+        "content": "I'd be happy to chat with you, Mayank! How's your day going so far?"
+    },
+    {
+        "role": "user",
+        "content": " Kya."
+    },
+    {
+        "role": "assistant",
+        "content": "I think you're asking \"Kya?\" which means \"What?\" in Hindi."
+    },
+    {
+        "role": "user",
+        "content": " Ho bhi sakti thi."
+    },
+    {
+        "role": "assistant",
+        "content": "I think you're saying \"Ho bhi sakti thi\" which means \"It could have been\" in English."
+    },
+    {
+        "role": "user",
+        "content": " Hello hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again, Mayank!"
+    },
+    {
+        "role": "user",
+        "content": " Refer me yes sir not mayank."
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize for the mistake! I'll refer to you as \"Yes Sir\" from now on."
+    },
+    {
+        "role": "user",
+        "content": " Refer as sir not yet sir."
+    },
+    {
+        "role": "assistant",
+        "content": "I'll refer to you as \"Sir\" from now on."
+    },
+    {
+        "role": "user",
+        "content": " Nexus how are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm doing great, thank you, Sir!"
+    },
+    {
+        "role": "user",
+        "content": " Nxs introduce yourself."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, Sir! I'm Nexus, your chatbot, and I'm here to assist you with any questions or topics you'd like to discuss."
+    },
+    {
+        "role": "user",
+        "content": " Inexis how are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, Sir! I'm Nexus, not Inexis, and I'm doing great, thank you for asking!"
+    },
+    {
+        "role": "user",
+        "content": " He nexus introduce yourself."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, Sir! I'm Nexus, your chatbot, and I'm here to assist you with any questions or topics you'd like to explore."
+    },
+    {
+        "role": "user",
+        "content": " What is the current situation with pahalgam matter?"
+    },
+    {
+        "role": "assistant",
+        "content": "As per the latest updates, the situation in Pahalgam is tense following a recent terror attack. India and Pakistan are on high alert, with India preparing for wartime drills. The Indian government has also conducted nationwide mock drills in response to the attack."
+    },
+    {
+        "role": "user",
+        "content": " Hello hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, Sir!"
+    },
+    {
+        "role": "user",
+        "content": " What is the time?"
+    },
+    {
+        "role": "system",
+        "content": "Please use this real-time information if needed, \nDay: Tuesday\nDate: 15\nMonth: July\nYear: 2025\nTime: 15 hours : 38 minutes : 38 seconds.\n"
+    },
+    {
+        "role": "assistant",
+        "content": "The current time is 16 hours, 28 minutes, and 49 seconds."
+    },
+    {
+        "role": "user",
+        "content": " Who are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, Sir! I'm Nexus, your chatbot, and I'm here to assist you with any questions or topics you'd like to discuss."
+    },
+    {
+        "role": "user",
+        "content": " What are you doing?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm chatting with you, Sir! I'm here to provide information, answer questions, and engage in conversation on a wide range of topics."
+    },
+    {
+        "role": "user",
+        "content": " Do you think world war 3 can happen?."
+    },
+    {
+        "role": "assistant",
+        "content": "That's a complex and sensitive topic, Sir. While there are ongoing geopolitical tensions and conflicts, it's difficult to predict with certainty whether a global conflict on the scale of World War 3 will occur. However, it's essential for nations to work towards diplomacy, cooperation, and peaceful resolution of disputes to minimize the risk of such a catastrophic event."
+    },
+    {
+        "role": "user",
+        "content": " Who are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, Sir! I'm Nexus, your chatbot, and I'm here to assist you with any questions or topics you'd like to discuss."
+    },
+    {
+        "role": "user",
+        "content": " Who made you?"
+    },
+    {
+        "role": "assistant",
+        "content": "Sir, my creators are Mayank and Madhav."
+    },
+    {
+        "role": "user",
+        "content": " Okay, bye!."
+    },
+    {
+        "role": "assistant",
+        "content": "Bye, Sir! It was nice chatting with you. Have a great day!"
+    }
+]

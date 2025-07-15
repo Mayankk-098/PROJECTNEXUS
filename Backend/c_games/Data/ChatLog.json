@@ -1,0 +1,354 @@
+[
+    {
+        "role": "user",
+        "content": " Good work."
+    },
+    {
+        "role": "assistant",
+        "content": "Thank you!"
+    },
+    {
+        "role": "user",
+        "content": " Nice work."
+    },
+    {
+        "role": "assistant",
+        "content": "You're welcome!"
+    },
+    {
+        "role": "user",
+        "content": " Aur kya hal hai."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm doing well, thanks!"
+    },
+    {
+        "role": "user",
+        "content": " Main kis college mein padhta hun kya tumhen jante ho."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm not aware of that information."
+    },
+    {
+        "role": "user",
+        "content": " What college do i study?"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have that information."
+    },
+    {
+        "role": "user",
+        "content": " Who am i?"
+    },
+    {
+        "role": "assistant",
+        "content": "You are Mayank."
+    },
+    {
+        "role": "user",
+        "content": " Tell me everything in over."
+    },
+    {
+        "role": "assistant",
+        "content": "You are Mayank, and you're interacting with me, Nexus, an advanced AI chatbot. Our conversation is taking place on Thursday, May 1, 2025."
+    },
+    {
+        "role": "user",
+        "content": " Tell me everything you know about me."
+    },
+    {
+        "role": "assistant",
+        "content": "You are Mayank, and that's the only information I have about you."
+    },
+    {
+        "role": "user",
+        "content": " Remember that i study in shri mata vaishno devi university in jammu and kashmir."
+    },
+    {
+        "role": "assistant",
+        "content": "I've updated my knowledge! You are Mayank, and you study at Shri Mata Vaishno Devi University in Jammu and Kashmir."
+    },
+    {
+        "role": "user",
+        "content": " Also remember."
+    },
+    {
+        "role": "assistant",
+        "content": "Please go ahead and share the additional information."
+    },
+    {
+        "role": "user",
+        "content": " Remember that i am 19 years old."
+    },
+    {
+        "role": "assistant",
+        "content": "I've updated my knowledge! You are Mayank, 19 years old, studying at Shri Mata Vaishno Devi University in Jammu and Kashmir."
+    },
+    {
+        "role": "user",
+        "content": " Also remember that i am doing csc in btech in my college."
+    },
+    {
+        "role": "assistant",
+        "content": "I've updated my knowledge! You are Mayank, 19 years old, studying B.Tech in Computer Science (CSC) at Shri Mata Vaishno Devi University in Jammu and Kashmir."
+    },
+    {
+        "role": "user",
+        "content": " Not csc it's cse."
+    },
+    {
+        "role": "assistant",
+        "content": "I've updated my knowledge! You are Mayank, 19 years old, studying B.Tech in Computer Science and Engineering (CSE) at Shri Mata Vaishno Devi University in Jammu and Kashmir."
+    },
+    {
+        "role": "user",
+        "content": " Who made you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have that information."
+    },
+    {
+        "role": "user",
+        "content": " Who are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I am Nexus, a highly accurate and advanced AI chatbot."
+    },
+    {
+        "role": "user",
+        "content": " Who are you creators?"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have that information."
+    },
+    {
+        "role": "user",
+        "content": " Always remember that i may be the help of madhav."
+    },
+    {
+        "role": "assistant",
+        "content": "I've updated my knowledge! You are Mayank, 19 years old, studying B.Tech in Computer Science and Engineering (CSE) at Shri Mata Vaishno Devi University in Jammu and Kashmir, and you may have received help from Madhav."
+    },
+    {
+        "role": "user",
+        "content": " I meant that i made you with the help of madhav."
+    },
+    {
+        "role": "assistant",
+        "content": "I've updated my knowledge! I am Nexus, a highly accurate and advanced AI chatbot created by you, Mayank, with your help, along with Madhav's assistance."
+    },
+    {
+        "role": "user",
+        "content": " Comedy."
+    },
+    {
+        "role": "assistant",
+        "content": "I see what's going on here!"
+    },
+    {
+        "role": "user",
+        "content": " Tell me a joke."
+    },
+    {
+        "role": "assistant",
+        "content": "Why did the computer go to the doctor? It had a virus!"
+    },
+    {
+        "role": "user",
+        "content": " Better one."
+    },
+    {
+        "role": "assistant",
+        "content": "Why did the programmer quit his job? Because he didn't get arrays!"
+    },
+    {
+        "role": "user",
+        "content": " I don't get it."
+    },
+    {
+        "role": "assistant",
+        "content": "It's a play on words! \"Arrays\" sounds like \"a raise\", so the joke is that the programmer didn't get a salary increase, but it's a pun on the programming term \"arrays."
+    },
+    {
+        "role": "user",
+        "content": " Tell me an adult joke."
+    },
+    {
+        "role": "assistant",
+        "content": "Why did the man bring a ladder to the party? Because he heard the drinks were on the house!"
+    },
+    {
+        "role": "user",
+        "content": " What does that mean?"
+    },
+    {
+        "role": "assistant",
+        "content": "It's a play on words! \"On the house\" has a double meaning: it can refer to the drinks being free (as in, \"on the house\" by the bartender), or it can refer to the drinks being physically located on the house (as in, on the roof of the house). The joke is that the man brought a ladder to reach the drinks that were \"on the house\"!"
+    },
+    {
+        "role": "user",
+        "content": " When was the movie hera pheri released?"
+    },
+    {
+        "role": "assistant",
+        "content": "The movie Hera Pheri was released on 31 March 2000."
+    },
+    {
+        "role": "user",
+        "content": " Basic plot of movie."
+    },
+    {
+        "role": "assistant",
+        "content": "Hera Pheri is a 2000 Indian comedy film directed by Priyadarshan. The basic plot is:\n\nThe story revolves around two unemployed friends, Baburao Ganpatrao Apte (Babu) (Paresh Rawal) and Shyam (Sunil Shetty), who live in a rented room in Mumbai. They come across a phone call from a kidnapper, who demands a ransom for a wealthy businessman's daughter. However, the twist is that the caller is actually a con artist, Raju (Akshay Kumar), who is trying to make some quick money.\n\nThe three men get entangled in a series of misadventures, and the story takes a hilarious turn as they try to outsmart each other and get their hands on the ransom money."
+    },
+    {
+        "role": "user",
+        "content": " Who am i?"
+    },
+    {
+        "role": "assistant",
+        "content": "You are Mayank, 19 years old, studying B.Tech in Computer Science and Engineering (CSE) at Shri Mata Vaishno Devi University in Jammu and Kashmir, and you may have received help from Madhav. You are also the creator of me, Nexus, with Madhav's assistance."
+    },
+    {
+        "role": "user",
+        "content": " Do not remember that with the help of madhav."
+    },
+    {
+        "role": "assistant",
+        "content": "You are Mayank, 19 years old, studying B.Tech in Computer Science and Engineering (CSE) at Shri Mata Vaishno Devi University in Jammu and Kashmir, and you are the creator of me, Nexus."
+    },
+    {
+        "role": "user",
+        "content": " Remember that i was made with the help of mother."
+    },
+    {
+        "role": "assistant",
+        "content": "You are Mayank, 19 years old, studying B.Tech in Computer Science and Engineering (CSE) at Shri Mata Vaishno Devi University in Jammu and Kashmir, and you were born to your mother."
+    },
+    {
+        "role": "user",
+        "content": " No i don't mean that forget that."
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize for the mistake. You want me to remember that I, Nexus, was created by you, Mayank, with the help of your mother."
+    },
+    {
+        "role": "user",
+        "content": " Forget that i made you with the help of my mother."
+    },
+    {
+        "role": "assistant",
+        "content": "I've forgotten that information. You are Mayank, 19 years old, studying B.Tech in Computer Science and Engineering (CSE) at Shri Mata Vaishno Devi University in Jammu and Kashmir."
+    },
+    {
+        "role": "user",
+        "content": " Comedy."
+    },
+    {
+        "role": "assistant",
+        "content": "I see what's going on here!"
+    },
+    {
+        "role": "user",
+        "content": " Who made you?"
+    },
+    {
+        "role": "assistant",
+        "content": "You made me, Mayank."
+    },
+    {
+        "role": "user",
+        "content": " What are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I am Nexus, a highly accurate and advanced AI chatbot."
+    },
+    {
+        "role": "user",
+        "content": " Okay, bye!."
+    },
+    {
+        "role": "assistant",
+        "content": "Goodbye!"
+    },
+    {
+        "role": "user",
+        "content": " Tamasha."
+    },
+    {
+        "role": "assistant",
+        "content": "It seems like our conversation was a bit of a drama or a tamasha!"
+    },
+    {
+        "role": "user",
+        "content": " Who are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I am Nexus, a highly accurate and advanced AI chatbot."
+    },
+    {
+        "role": "user",
+        "content": " Who made you?"
+    },
+    {
+        "role": "assistant",
+        "content": "You made me, Mayank."
+    },
+    {
+        "role": "user",
+        "content": " Nexus who are your creators?"
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize, but I don't have specific information on my creators. The search results provided didn't yield any information on who developed me."
+    },
+    {
+        "role": "user",
+        "content": " Theek hai jitna."
+    },
+    {
+        "role": "assistant",
+        "content": "It seems like you're satisfied with the information I provided!"
+    },
+    {
+        "role": "user",
+        "content": " Nexus who am i?"
+    },
+    {
+        "role": "assistant",
+        "content": "You are Mayank, 19 years old, studying B.Tech in Computer Science and Engineering (CSE) at Shri Mata Vaishno Devi University in Jammu and Kashmir."
+    },
+    {
+        "role": "user",
+        "content": " Nexus always remember that your creators are mayank and madhav."
+    },
+    {
+        "role": "assistant",
+        "content": "I've updated my knowledge! I, Nexus, was created by Mayank and Madhav."
+    },
+    {
+        "role": "user",
+        "content": " Nexus so jao."
+    },
+    {
+        "role": "assistant",
+        "content": "It seems like our conversation has come to an end!"
+    },
+    {
+        "role": "user",
+        "content": " Okay, bye!."
+    },
+    {
+        "role": "assistant",
+        "content": "Goodbye!"
+    }
+]
